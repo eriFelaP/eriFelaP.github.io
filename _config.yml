@@ -20,8 +20,6 @@ plugins:
 paginate: 20
 
 markdown: kramdown
-kramdown:
-  math_engine: null
 fenced_code_blocks: true
 highlighter: rouge
 
