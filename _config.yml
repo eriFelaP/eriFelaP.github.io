@@ -1,0 +1,28 @@
+url: "https://www.zongnan.org/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Zongnan's HOME" # the name of your site, e.g. ACME Corp.
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      render_with_liquid: true
+
+encoding: utf-8
+port: 8000
+
+plugins:
+  - jekyll-paginate
+
+paginate: 20
+
+markdown: kramdown
+kramdown:
+  math_engine: null
+fenced_code_blocks: true
+highlighter: rouge
+
+permalink: /:year/:month/:day/:title/

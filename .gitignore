@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+/assets/MathJax-3.0.0

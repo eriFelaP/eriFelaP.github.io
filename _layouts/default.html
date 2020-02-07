@@ -1,0 +1,27 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>😾{{ page.title }} - {{ site.title }}</title>
+    <link
+      rel="stylesheet"
+      href="{{ "/assets/css/style.css" | relative_url }}">
+    <link
+      rel="stylesheet"
+      href="{{ "/assets/css/jekyll-pygments-themes/tango.css" | relative_url }}">
+  </head>
+  <body>
+        <!-- 导航 -->
+        <nav>
+          <a href="/"> [首页] </a>
+          <a href="/categories/"> [分类] </a>
+          <a href="/tags/"> [标签] </a>
+        </nav>
+        {{ content}}
+  <footer> Copyright © ZongnanHU - Powered by Jekyll.</footer>
+  </body>
+</html>
