@@ -178,3 +178,20 @@ footer{
     display: inline-block;
     margin-right: 12px;
 }
+
+
+
+@media only screen and (max-width: 500px) {
+    html {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    border: 1px solid LightGrey;
+    }
+    .time_categories_tags{
+        display:none;
+    }
+    .PageNavigation{
+        display:none;
+    }
+}
+
